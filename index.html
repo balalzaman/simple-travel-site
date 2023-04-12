@@ -10,27 +10,21 @@
     </head>
         <body>
             <header>
-                <h3> 
+                <h2> 
                     Simple Travel Site
-                </h3>
+                </h2>
             </header>
             <nav>
-                <ul> 
-                    <li> 
-                        <a href="index.html">
-                            <button>
-                                Home
-                            </button>
-                        </a>
-                    </li>
-                    <li> 
-                        <a href="cityimages.html">
-                            <button>
-                                London Images
-                            </button>
-                        </a>
-                    </li>
-                </ul>
+                <a href="index.html">
+                    <button>
+                        Home
+                    </button>
+                </a>
+                <a href="cityimages.html">
+                    <button>
+                        London Images
+                    </button>
+                </a>   
             </nav>
         </body>
 <div 
@@ -54,15 +48,28 @@
         </p>
     </div>
     <div>
-        <h4>
+        <h3>
             Leaders
-        </h4>
-            <table style border="1"> 
-                <tr>
-                    <th>Name</th>
-                    <th>Email</th>
-                    <th>Phone</th>
-                </tr>
+        </h3>
+        <style> 
+            table{
+                width: 100%
+            } 
+            table, tr, th, td {
+                border: 1px solid gray;
+                border-collapse: collapse; 
+            }
+            th, td {
+                padding: 1rem;
+                text-align: left;
+            }
+        </style>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+            </tr>
                
                 <tbody>
                     <tr>
