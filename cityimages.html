@@ -8,22 +8,23 @@
     </style>
 London
 </h1>
-        <style>
-            .photo{
-                width: 45vw;
+    <style>
+        .photo {
+            margin: 0.5rem;
+            width: 45vw;
+            height: auto;
+            border: 5px;
+            color: black;
+            border-radius: 3px;
             }
-        </style>
+    </style>
         <body>
             <nav>
                 <a href="index.html">
-                    <button>
-                        Home
-                    </button>
+                    Home
                 </a>
                 <a href="cityimages.html">
-                    <button>
-                        London Images
-                    </button>
+                    London Images
                 </a>
             </nav>
         </body>
@@ -34,46 +35,25 @@ London
                 clear: both;
                 display: table;
                 }
+                nav {
+                margin: auto;
+                /* width: 50px; */
+                text-align: center;
+                }
+                nav a {
+                    background-color: rgb(41, 161, 241);
+                    padding: 0.5rem;
+                    margin: 0.5rem;
+                    display: inline-block;
+                    font-size: 1rem;
+                    color: white;
+                    border:rgb(41, 161, 241);
+                    text-decoration: none;
+                }
             </style>
-            <div class="column">
-                <img src= "images/London.jpg" alt="London" width="150%" height="150%"> 
-                <style> 
-                    .column {
-                        float: left;
-                        width: 50%;
-                        padding: 5px;
-                    }
-                </style>
-            </div>
-            <div class="column">
-                <img src= "images/London2.jpg" alt="London" width="150%" height="150%">
-                <style> 
-                    .column {
-                        float: left;
-                        width: 50%;
-                        padding: 5px;
-                    }
-                </style>
-            </div>
-            <div class="column">
-                <img src= "images/London3.jpg" alt="London3" width="150%" height="150%">
-                <style> 
-                    .column {
-                        float: left;
-                        width: 50%;
-                        padding: 5px;
-                    }
-                </style>
-            </div>
-            <div class="column">
-                <img src= "images/London4.jpg" alt="London4" width="150%" height="150%">
-                <style> 
-                    .column {
-                        float: left;
-                        width: 50%;
-                        padding: 5px;
-                    }
-                </style>
-            </div>
-          </div>
-          <stlye>
+        <div class=.photo>
+            <img src= "images/London.jpg" alt="London" class="photo" width="50%" height="50%"> 
+            <img src= "images/London4.jpg" alt="London" class="photo" width="50%" height="50%">
+            <img src= "images/London2.jpg" alt="London" class="photo" width="50%" height="50%">
+            <img src= "images/London3.jpg" alt="London" class="photo" width="50%" height="50%">
+        </div>
