@@ -4,3 +4,16 @@ body {
 table, th, td {
     border: 1px solid;
 }
+
+border-collapse: collapse;
+
+<table>
+            <tr>
+                <th> <img src= "images/London.jpg" alt="London" width="100%" height="100%"> </th>
+                <th> <img src= "images/London2.jpg" alt="London" width="100%" height="100%"> </th>
+            </tr>
+            <tr>
+                <th> <img src= "images/London3.jpg" alt="London3" width="100%" height="100%"> </th>
+                <th> <img src= "images/London4.jpg" alt="London4" width="100%" height="100%"> </th>
+            </tr>
+        </table>
